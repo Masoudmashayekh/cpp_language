@@ -1,8 +1,7 @@
-#include <iostream>
-using namespace std;
+#include <iostream>  // Standard Library
 
 int main()
 {
-    cout << "Hello, World!" << endl;
+    std::cout << "Hello, World!"; // std = standard library namespace
     return 0;
 }

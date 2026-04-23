@@ -36,3 +36,8 @@ C++11, C++14, C++17, C++20
 - MinGW-w64
   
 ### C++ structure:
+ - Every statement must end with a semicolon ;
+ - A valid C++ program must have a function named main() because execution always starts there.
+ - Use // for single-line comments. You can also write multi-line comments using /* */.   
+    // → single-line comment
+    /* ... */ → multi-line comment
