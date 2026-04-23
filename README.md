@@ -19,5 +19,5 @@ C++11, C++14, C++17, C++20
 - Trust the Programmer
   
 
-### Type system
-age = 30 
+### Type system:
+
