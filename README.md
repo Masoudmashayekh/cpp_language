@@ -38,7 +38,6 @@ C++11, C++14, C++17, C++20
 ### C++ structure:
  - Every statement must end with a semicolon ;
  - A valid C++ program must have a function named main() because execution always starts there.
- - use // for single-line comments. 
+ - use // for single-line comments.   
  // → single-line comment  
  /* ... */ → multi-line comment  
- 
