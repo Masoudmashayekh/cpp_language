@@ -67,6 +67,7 @@ int a; // default initialization
 int b = 5; // copy initialization  
 int c(6); // direct initialization - can not use for list    
 int d{7}; // uniform initialization  
+- code-runner.executor => settings.json => add => -std=c++11
   
 
 
