@@ -106,7 +106,8 @@ initializing variables helps prevent bugs ✔
 | \|\|     | Logical OR               |
 | !        | Logical NOT              |
 | ++       | Increment (increase by 1)|
-| --       | Decrement (decrease by 1)|
+| --       | Decrement (decrease by 1)|  
+
 
 - Operator Types in C++:
 | Type    | Operands | Example                |
