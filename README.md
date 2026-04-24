@@ -116,4 +116,13 @@ initializing variables helps prevent bugs ✔
 |---------|---------|----------------------------------|
 | Unary   | 1       | `-5`                             |
 | Binary  | 2       | `15 - 5`                         |
-| Ternary | 3       | `age >= 18 ? "Adult" : "Minor"`  |
+| Ternary | 3       | `age >= 18 ? "Adult" : "Minor"`  |  
+
+- Expression Components in C++
+
+| Component        | Description                          | Example        |
+|------------------|--------------------------------------|----------------|
+| Values (literals)| Fixed values written directly        | `5`, `3.14`    |
+| Variables        | Named storage holding values         | `x`, `age`     |
+| Operators        | Perform operations on values         | `+`, `-`, `*`  |
+| Function calls   | Execute functions that return values | `sum(a, b)`    |
