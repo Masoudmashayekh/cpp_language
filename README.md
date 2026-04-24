@@ -69,6 +69,9 @@ int c(6); // direct initialization - can not use for list
 int d{7}; // uniform initialization  
 - code-runner.executor => settings.json => add => -std=c++11
   
+- std::endl vs "\n":  
+std::endl → newline + flush (slower)   
+"\n" → just newline (faster, preferred in most cases)  
 
 
 
