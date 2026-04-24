@@ -82,3 +82,51 @@ using namespace std; // It allows you to avoid writing std:: every time.
 - int x; → declares variable (but value is random ❌)  
 int x = 0; or int x{0}; → safe initialization ✔  
 initializing variables helps prevent bugs ✔   
+
+- Operators in C++:  
++   // addition
+-   // subtraction
+*   // multiplication
+/   // division
+%   // modulus (remainder)
+=   // assign
++=  // add and assign
+-=  // subtract and assign
+*=  // multiply and assign
+/=  // divide and assign
+==  // equal
+!=  // not equal
+>   // greater
+<   // less
+>=  // greater or equal
+<=  // less or equal
+&&  // AND
+||  // OR
+!   // NOT
+++  // increase by 1
+--  // decrease by 1
+## Operators in C++
+
+| Operator | Description              |
+|----------|--------------------------|
+| +        | Addition                 |
+| -        | Subtraction              |
+| *        | Multiplication           |
+| /        | Division                 |
+| %        | Modulus (remainder)      |
+| =        | Assign                   |
+| +=       | Add and assign           |
+| -=       | Subtract and assign      |
+| *=       | Multiply and assign      |
+| /=       | Divide and assign        |
+| ==       | Equal                    |
+| !=       | Not equal                |
+| >        | Greater                  |
+| <        | Less                     |
+| >=       | Greater or equal         |
+| <=       | Less or equal            |
+| &&       | Logical AND              |
+| \|\|     | Logical OR               |
+| !        | Logical NOT              |
+| ++       | Increment (increase by 1)|
+| --       | Decrement (decrease by 1)|
