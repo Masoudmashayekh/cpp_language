@@ -49,13 +49,13 @@ C++11, C++14, C++17, C++20
 - `int a=5 , b=4;` // all should be integer  
 `int s, g;`  
 
-- int should be descriptive:  int age = 20; not int x = 20;
+- int should be descriptive:  `int age = 20;` not `int x = 20;`
 - C++ is case sensitive:     
 In C++, uppercase and lowercase letters are treated as different characters, so:  
 `r ≠ R`  
 `sum ≠ Sum ≠ SUM`  
 - In C++, camelCase is commonly used, but it’s not a strict rule and not “everyone uses it”.  
-camelCase: userAge, totalScore, calculateSum()  
+camelCase: `userAge`, `totalScore`, `calculateSum()`  
   
 - An object helps us access data (values) and functions defined in a class.  
 `int x=5;`  
@@ -65,22 +65,22 @@ camelCase: userAge, totalScore, calculateSum()
   
 `int a;` // default initialization  
 `int b = 5;` // copy initialization  
-int c(6); // direct initialization - can not use for list    
-int d{7}; // uniform initialization  
-- code-runner.executor => settings.json => add => -std=c++11
+`int c(6);` // direct initialization - can not use for list    
+`int d{7};` // uniform initialization  
+- code-runner.executor => settings.json => add => `-std=c++11`
   
-- std::endl vs "\n":  
-std::endl → newline + flush (slower)   
-"\n" → just newline (faster, preferred in most cases)  
+- `std::endl` vs `"\n"`:  
+`std::endl` → newline + flush (slower)   
+`"\n"` → just newline (faster, preferred in most cases)  
 
 - In C++, std::cin and std::cout are the standard input and output objects used for basic console interaction.  
-cout → Character out  
-cin → Character in  
+`cout` → Character out  
+`cin` → Character in  
   
-using namespace std; // It allows you to avoid writing std:: every time.
+`using namespace std;` // It allows you to avoid writing std:: every time.
 
-- int x; → declares variable (but value is random ❌)  
-int x = 0; or int x{0}; → safe initialization ✔  
+- `int x;` → declares variable (but value is random ❌)  
+`int x = 0;` or `int x{0};` → safe initialization ✔  
 initializing variables helps prevent bugs ✔   
 
 - Operators in C++
