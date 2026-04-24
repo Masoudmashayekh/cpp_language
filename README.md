@@ -130,3 +130,24 @@ initializing variables helps prevent bugs ✔
 
 
 ## Section 3:
+
+-  Types of Functions in C++
+
+| Type              | Description                              | Example              |
+|------------------|------------------------------------------|----------------------|
+| Predefined        | Built-in functions provided by C++       | `sqrt(25)`          |
+| User-defined      | Functions created by the programmer      | `int add(int a, int b)` |
+| Void function     | Function that returns no value           | `void show()`       |
+| Parameterized     | Function that takes input values         | `add(5, 3)`         |
+| Non-parameterized | Function with no input parameters        | `show()`            |
+| Recursive         | Function that calls itself               | `factorial(n)`      |  
+  
+- Parts of a Function in C++
+
+| Part         | Description                          | Example              |
+|--------------|--------------------------------------|----------------------|
+| Return type  | Type of value returned               | `int`, `void`       |
+| Function name| Name of the function                 | `add`, `sum`        |
+| Parameters   | Input values                         | `(int a, int b)`    |
+| Function body| Code inside the function            | `{ return a + b; }` |
+| Return       | Sends value back to caller          | `return a + b;`     |  
