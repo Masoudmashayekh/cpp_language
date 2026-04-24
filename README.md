@@ -54,3 +54,7 @@ int s, g;
 In C++, uppercase and lowercase letters are treated as different characters, so:  
 r ≠ R  
 sum ≠ Sum ≠ SUM  
+- In C++, camelCase is commonly used, but it’s not a strict rule and not “everyone uses it”.  
+camelCase: userAge, totalScore, calculateSum()  
+  
+- An object helps us access data (values) and functions defined in a class.  

@@ -3,6 +3,7 @@
 int main()
 {
     int age;
+    int className;
     return;
 
 }
