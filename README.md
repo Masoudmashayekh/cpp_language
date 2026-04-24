@@ -126,3 +126,7 @@ initializing variables helps prevent bugs ✔
 | Variables        | Named storage holding values         | `x`, `age`     |
 | Operators        | Perform operations on values         | `+`, `-`, `*`  |
 | Function calls   | Execute functions that return values | `sum(a, b)`    |  
+  
+
+
+## Section 3:
