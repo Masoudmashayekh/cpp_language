@@ -44,4 +44,5 @@ C++11, C++14, C++17, C++20
    
 ## Section 2:
 
-int x = 5;
+int x = 5; => int is integer
+double y = 4.8; => double is a floating-point data type used to store decimal (real) numbers.
