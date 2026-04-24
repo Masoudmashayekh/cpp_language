@@ -38,33 +38,33 @@ C++11, C++14, C++17, C++20
 ### C++ structure:
  - Every statement must end with a semicolon ;
  - A valid C++ program must have a function named main() because execution always starts there.
- - use // for single-line comments.   
- // → single-line comment  
- /* ... */ → multi-line comment  
+ - use `//` for single-line comments.   
+ `//` → single-line comment  
+ `/* ... */` → multi-line comment  
    
 ## Section 2:
 
-- int x = 5; => int is integer
-- double y = 4.8; => double is a floating-point data type used to store decimal (real) numbers.  
-- int a=5 , b=4; // all should be integer  
-int s, g;  
+- `int x = 5;` => `int` is integer
+- `double y = 4.8;` => `double` is a floating-point data type used to store decimal (real) numbers.  
+- `int a=5 , b=4;` // all should be integer  
+`int s, g;`  
 
 - int should be descriptive:  int age = 20; not int x = 20;
 - C++ is case sensitive:     
 In C++, uppercase and lowercase letters are treated as different characters, so:  
-r ≠ R  
-sum ≠ Sum ≠ SUM  
+`r ≠ R`  
+`sum ≠ Sum ≠ SUM`  
 - In C++, camelCase is commonly used, but it’s not a strict rule and not “everyone uses it”.  
 camelCase: userAge, totalScore, calculateSum()  
   
 - An object helps us access data (values) and functions defined in a class.  
-int x=5;  
-int → data type (what kind of value it stores: integer)  
-x → identifier (variable name)  
-5 → value (literal constant)  
+`int x=5;`  
+`int` → data type (what kind of value it stores: integer)  
+`x` → identifier (variable name)  
+`5` → value (literal constant)  
   
-int a; // default initialization  
-int b = 5; // copy initialization  
+`int a;` // default initialization  
+`int b = 5;` // copy initialization  
 int c(6); // direct initialization - can not use for list    
 int d{7}; // uniform initialization  
 - code-runner.executor => settings.json => add => -std=c++11
