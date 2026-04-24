@@ -151,3 +151,6 @@ initializing variables helps prevent bugs ✔
 | Parameters   | Input values                         | `(int a, int b)`    |
 | Function body| Code inside the function            | `{ return a + b; }` |
 | Return       | Sends value back to caller          | `return a + b;`     |  
+  
+`int` → function gives back a number  
+`void` → function gives nothing back  
