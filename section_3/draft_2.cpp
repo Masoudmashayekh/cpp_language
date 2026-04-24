@@ -10,9 +10,15 @@ int getValueFromUser()
 }
 
 
+void printDouble(int number)
+{
+    std::cout << number << " double is: " << number * 2 << "\n";
+}
+
+
 int main()
 {
     int number{ getValueFromUser() };
-    std::cout << number << " double is: " << number * 2 << "\n";
+    printDouble(number);
     return 0;
 }

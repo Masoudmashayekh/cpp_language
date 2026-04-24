@@ -154,3 +154,5 @@ initializing variables helps prevent bugs ✔
   
 `int` → function gives back a number  
 `void` → function gives nothing back  
+`x` → parameter `int x = 10;`  
+`10` → argument  
