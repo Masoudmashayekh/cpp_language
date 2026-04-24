@@ -83,35 +83,37 @@ using namespace std; // It allows you to avoid writing std:: every time.
 int x = 0; or int x{0}; → safe initialization ✔  
 initializing variables helps prevent bugs ✔   
 
-- Operators in C++:  
-| Operator | Description              |
-|----------|--------------------------|
-| +        | Addition                 |
-| -        | Subtraction              |
-| *        | Multiplication           |
-| /        | Division                 |
-| %        | Modulus (remainder)      |
-| =        | Assign                   |
-| +=       | Add and assign           |
-| -=       | Subtract and assign      |
-| *=       | Multiply and assign      |
-| /=       | Divide and assign        |
-| ==       | Equal                    |
-| !=       | Not equal                |
-| >        | Greater                  |
-| <        | Less                     |
-| >=       | Greater or equal         |
-| <=       | Less or equal            |
-| &&       | Logical AND              |
-| \|\|     | Logical OR               |
+- Operators in C++
+
+| Operator | Description               |
+|----------|---------------------------|
+| +        | Addition                  |
+| -        | Subtraction               |
+| *        | Multiplication            |
+| /        | Division                  |
+| %        | Modulus (remainder)       |
+| =        | Assignment                |
+| +=       | Add and assign            |
+| -=       | Subtract and assign       |
+| *=       | Multiply and assign       |
+| /=       | Divide and assign         |
+| ==       | Equal to                  |
+| !=       | Not equal to              |
+| >        | Greater than              |
+| <        | Less than                 |
+| >=       | Greater than or equal to  |
+| <=       | Less than or equal to     |
+| &&       | Logical AND               |
+| \|\|     | Logical OR                |
 | !        | Logical NOT              |
-| ++       | Increment (increase by 1)|
-| --       | Decrement (decrease by 1)|  
+| ++       | Increment (increase by 1) |
+| --       | Decrement (decrease by 1) |
 
 
-- Operator Types in C++:
-| Type    | Operands | Example                |
-|---------|---------|------------------------|
-| Unary   | 1       | `-5`                  |
-| Binary  | 2       | `15 - 5`                |
-| Ternary | 3       | `age >= 18 ` |
+- Operator Types in C++
+
+| Type    | Operands | Example                          |
+|---------|---------|----------------------------------|
+| Unary   | 1       | `-5`                             |
+| Binary  | 2       | `15 - 5`                         |
+| Ternary | 3       | `age >= 18 ? "Adult" : "Minor"`  |
