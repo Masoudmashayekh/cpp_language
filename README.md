@@ -84,8 +84,6 @@ int x = 0; or int x{0}; → safe initialization ✔
 initializing variables helps prevent bugs ✔   
 
 - Operators in C++:  
-
-### Operators in C++
 | Operator | Description              |
 |----------|--------------------------|
 | +        | Addition                 |
@@ -110,3 +108,9 @@ initializing variables helps prevent bugs ✔
 | ++       | Increment (increase by 1)|
 | --       | Decrement (decrease by 1)|
 
+- Operator Types in C++:
+| Type    | Operands | Example                |
+|---------|---------|------------------------|
+| Unary   | 1       | `-5`                  |
+| Binary  | 2       | `15 - 5`                |
+| Ternary | 3       | `age >= 18 ` |
