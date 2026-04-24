@@ -156,3 +156,7 @@ initializing variables helps prevent bugs ✔
 `void` → function gives nothing back  
 `x` → parameter `int x = 10;`  
 `10` → argument  
+The number of arguments must match the number of parameters in most cases.    
+  
+- Local variable = variable that lives only inside a function/block  
+- Global variable = variable that lives entire program  
