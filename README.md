@@ -76,6 +76,9 @@ std::endl → newline + flush (slower)
 - In C++, std::cin and std::cout are the standard input and output objects used for basic console interaction.  
 cout → Character out  
 cin → Character in  
+  
+using namespace std; // It allows you to avoid writing std:: every time.
 
-
-
+- int x; → declares variable (but value is random ❌)  
+int x = 0; or int x{0}; → safe initialization ✔  
+initializing variables helps prevent bugs ✔   
