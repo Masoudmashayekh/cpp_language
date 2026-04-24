@@ -125,4 +125,4 @@ initializing variables helps prevent bugs ✔
 | Values (literals)| Fixed values written directly        | `5`, `3.14`    |
 | Variables        | Named storage holding values         | `x`, `age`     |
 | Operators        | Perform operations on values         | `+`, `-`, `*`  |
-| Function calls   | Execute functions that return values | `sum(a, b)`    |
+| Function calls   | Execute functions that return values | `sum(a, b)`    |  
