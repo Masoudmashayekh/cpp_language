@@ -2,8 +2,10 @@
 
 int main()
 {
+    // int age = 30;
+    // int className;
     int age;
-    int className;
+    age = 30;
     return;
 
 }

@@ -62,4 +62,12 @@ int x=5;
 int → data type (what kind of value it stores: integer)  
 x → identifier (variable name)  
 5 → value (literal constant)  
+  
+int a; // default initialization  
+int b = 5; // copy initialization  
+int c(6); // direct initialization - can not use for list    
+int d{7}; // uniform initialization  
+  
+
+
 
