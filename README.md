@@ -73,5 +73,9 @@ int d{7}; // uniform initialization
 std::endl → newline + flush (slower)   
 "\n" → just newline (faster, preferred in most cases)  
 
+- In C++, std::cin and std::cout are the standard input and output objects used for basic console interaction.  
+cout → Character out  
+cin → Character in  
+
 
 
