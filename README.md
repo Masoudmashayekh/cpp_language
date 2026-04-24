@@ -58,3 +58,8 @@ sum ≠ Sum ≠ SUM
 camelCase: userAge, totalScore, calculateSum()  
   
 - An object helps us access data (values) and functions defined in a class.  
+int x=5;  
+int → data type (what kind of value it stores: integer)  
+x → identifier (variable name)  
+5 → value (literal constant)  
+
