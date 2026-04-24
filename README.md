@@ -46,11 +46,11 @@ C++11, C++14, C++17, C++20
 
 - int x = 5; => int is integer
 - double y = 4.8; => double is a floating-point data type used to store decimal (real) numbers.  
-- int a=5 , b=4; // all should be integer
+- int a=5 , b=4; // all should be integer  
 int s, g;  
 
 - int should be descriptive  int age = 20; not int x = 20;
-- C++ is case sensitive
-- In C++, uppercase and lowercase letters are treated as different characters, so:  
+- C++ is case sensitive     
+In C++, uppercase and lowercase letters are treated as different characters, so:  
 r ≠ R  
 sum ≠ Sum ≠ SUM  
