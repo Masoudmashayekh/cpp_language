@@ -1,13 +1,14 @@
 #include <iostream>
 #include <string>
+using namespace std; // It allows you to avoid writing std:: every time.
 
 int main()
 {
-    std::cout << "Tell me your age: ";
-    std::string name {};
+    cout << "Tell me your age: ";
+    string name {};
     int age {};
     
-    std::cin >> name >> age;
-    std::cout << "Hi " << name << ". Your age is "<< age << ".\n";
+    cin >> name >> age;
+    cout << "Hi " << name << ". Your age is "<< age << ".\n";
     return 0;
 }
