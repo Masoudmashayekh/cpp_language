@@ -160,3 +160,13 @@ The number of arguments must match the number of parameters in most cases.
   
 - Local variable = variable that lives only inside a function/block  
 - Global variable = variable that lives entire program  
+  
+
+- Why Functions Help Organize Code
+
+| # | Concept        | Description                                                                 | Example                                      |
+|---|---------------|-----------------------------------------------------------------------------|----------------------------------------------|
+| 1 | Reusability   | Write code once, use it many times.                                        | A function to calculate the sum of two numbers |
+| 2 | Readability   | Breaking a program into smaller functions makes it easier to understand.    | Splitting logic into clear, named functions   |
+| 3 | Maintainability | Update code in one place instead of everywhere.                           | Fix a bug inside one function only            |
+| 4 | Modularity    | Each function handles a specific task, keeping code structured and clean.   | Separate functions for input, processing, output |  
