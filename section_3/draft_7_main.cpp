@@ -1,8 +1,7 @@
 #include <iostream>
 
 
-int add(int x, int y);   // Forward Declaration or pure declaration
-
+int add(int x, int y);
 
 int main()
 {
@@ -10,8 +9,4 @@ int main()
     return 0;
 }
 
-
-int add(int x, int y)
-{
-    return x + y;
-}
+// g++ draft_7_main.cpp draft_7.cpp ==> ./a.out

@@ -174,3 +174,5 @@ The number of arguments must match the number of parameters in most cases.
 - Declaration → “It exists”
 - Definition → “Here’s the code”
 - Forward Declaration → “You’ll see it later
+  
+- Compile and Run C++ from Terminal: `g++ draft_6.cpp` and `./a.out` 
