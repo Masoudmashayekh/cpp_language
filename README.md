@@ -83,7 +83,7 @@ camelCase: `userAge`, `totalScore`, `calculateSum()`
 `int x = 0;` or `int x{0};` → safe initialization ✔  
 initializing variables helps prevent bugs ✔   
 
-- Operators in C++
+#### Operators in C++
 
 | Operator | Description               |
 |----------|---------------------------|
@@ -110,7 +110,7 @@ initializing variables helps prevent bugs ✔
 | --       | Decrement (decrease by 1) |
 
 
-- Operator Types in C++
+#### Operator Types in C++
 
 | Type    | Operands | Example                          |
 |---------|---------|----------------------------------|
@@ -118,7 +118,7 @@ initializing variables helps prevent bugs ✔
 | Binary  | 2       | `15 - 5`                         |
 | Ternary | 3       | `age >= 18 ? "Adult" : "Minor"`  |  
 
-- Expression Components in C++
+#### Expression Components in C++
 
 | Component        | Description                          | Example        |
 |------------------|--------------------------------------|----------------|
@@ -131,7 +131,7 @@ initializing variables helps prevent bugs ✔
 
 ## Section 3:
 
--  Types of Functions in C++
+#### Types of Functions in C++
 
 | Type              | Description                              | Example              |
 |------------------|------------------------------------------|----------------------|
@@ -142,7 +142,7 @@ initializing variables helps prevent bugs ✔
 | Non-parameterized | Function with no input parameters        | `show()`            |
 | Recursive         | Function that calls itself               | `factorial(n)`      |  
   
-- Parts of a Function in C++
+#### Parts of a Function in C++
 
 | Part         | Description                          | Example              |
 |--------------|--------------------------------------|----------------------|
@@ -162,7 +162,7 @@ The number of arguments must match the number of parameters in most cases.
 - Global variable = variable that lives entire program  
   
 
-- Why Functions Help Organize Code
+#### Why Functions Help Organize Code
 
 | # | Concept        | Description                                                                 | Example                                      |
 |---|---------------|-----------------------------------------------------------------------------|----------------------------------------------|
