@@ -170,3 +170,7 @@ The number of arguments must match the number of parameters in most cases.
 | 2 | Readability   | Breaking a program into smaller functions makes it easier to understand.    | Splitting logic into clear, named functions   |
 | 3 | Maintainability | Update code in one place instead of everywhere.                           | Fix a bug inside one function only            |
 | 4 | Modularity    | Each function handles a specific task, keeping code structured and clean.   | Separate functions for input, processing, output |  
+  
+- Declaration → “It exists”
+- Definition → “Here’s the code”
+- Forward Declaration → “You’ll see it later
