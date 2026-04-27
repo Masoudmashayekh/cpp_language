@@ -177,4 +177,6 @@ The number of arguments must match the number of parameters in most cases.
   
 - Compile and Run C++ from Terminal: `g++ draft_6.cpp` and `./a.out` 
 
-- namespace: In C++, a namespace is a way to organize code and avoid name conflicts. It lets you group related variables, functions, classes, etc., under a specific name.
+- namespace: In C++, a namespace is a way to organize code and avoid name conflicts. It lets you group related variables, functions, classes, etc., under a specific name.  
+
+- In C++, the global namespace (often casually called “global scope”) is the outermost level of your program, where names exist if you don’t put them inside a class, function, or namespace.
