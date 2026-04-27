@@ -176,3 +176,5 @@ The number of arguments must match the number of parameters in most cases.
 - Forward Declaration → “You’ll see it later
   
 - Compile and Run C++ from Terminal: `g++ draft_6.cpp` and `./a.out` 
+
+- namespace: In C++, a namespace is a way to organize code and avoid name conflicts. It lets you group related variables, functions, classes, etc., under a specific name.
