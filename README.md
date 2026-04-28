@@ -220,3 +220,38 @@ These allow compiling code conditionally.
 #endif
 ```
   
+- #ifdef  
+```c
+#ifdef DEBUG
+    // compiled if DEBUG is defined
+#endif
+```  
+
+- #ifndef  
+```c
+#ifndef MY_HEADER
+    // compiled if not defined
+#endif
+```  
+
+- #else  
+```c
+#ifdef A
+    // if A exists
+#else
+    // otherwise
+#endif
+```  
+
+- #elif  
+```c
+#if x == 1
+#elif x == 2
+#endif
+```   
+
+- #endif  
+Ends a condition block:  
+```c
+#endif
+```
