@@ -181,4 +181,10 @@ The number of arguments must match the number of parameters in most cases.
 
 - In C++, the global namespace (often casually called “global scope”) is the outermost level of your program, where names exist if you don’t put them inside a class, function, or namespace.  
 
-- In C++, `std::` is a namespace qualifier. It tells the compiler that the name that follows (like `cout`) belongs to the standard library namespace called `std`.
+- In C++, `std::` is a namespace qualifier. It tells the compiler that the name that follows (like `cout`) belongs to the standard library namespace called `std`.  
+
+- A using directive statement in C++ is a way to tell the compiler: “Make all the names from this namespace available here, without writing the namespace prefix every time.”  
+`using namespace std;`  
+`cout << "Hello";`  
+instead of:  
+`std::cout << "Hello";`
