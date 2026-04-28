@@ -188,3 +188,5 @@ The number of arguments must match the number of parameters in most cases.
 `cout << "Hello";`  
 instead of:  
 `std::cout << "Hello";`
+  
+- A preprocessor directive in C++ is a command that starts with # and is handled before the actual compilation begins. Preprocessor directives don’t produce executable code themselves—they change or prepare the source code.
