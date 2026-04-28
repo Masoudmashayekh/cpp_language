@@ -1,6 +1,7 @@
 #include <iostream>
 
 #define PRINT_JOE
+#define FOO 9
 
 int main()
 {
@@ -11,5 +12,10 @@ int main()
     #ifndef PRINT_BOB
     std::cout << "Bob not define" << "\n";
     #endif
+
+    #ifdef FOO
+    std::cout << FOO << "\n";
+    #endif
+
     return 0;
 }
