@@ -179,4 +179,6 @@ The number of arguments must match the number of parameters in most cases.
 
 - namespace: In C++, a namespace is a way to organize code and avoid name conflicts. It lets you group related variables, functions, classes, etc., under a specific name.  
 
-- In C++, the global namespace (often casually called “global scope”) is the outermost level of your program, where names exist if you don’t put them inside a class, function, or namespace.
+- In C++, the global namespace (often casually called “global scope”) is the outermost level of your program, where names exist if you don’t put them inside a class, function, or namespace.  
+
+- In C++, `std::` is a namespace qualifier. It tells the compiler that the name that follows (like `cout`) belongs to the standard library namespace called `std`.
