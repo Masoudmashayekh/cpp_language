@@ -204,9 +204,19 @@ Includes another file:
 `#define`  
 Defines macros:  
 `#define PI 3.14`  
+`#define MY_NAME "Masoud"`  
 `#define SQUARE(x) ((x)*(x))`  
 `#undef`  
 Removes a macro:  
-`#undef PI`  
+`#undef PI` 
+
   
+3. Conditional compilation  
+These allow compiling code conditionally.  
+- #if
+```c
+#if 10 > 5
+    // compiled
+#endif
+```
   
