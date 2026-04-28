@@ -192,10 +192,21 @@ instead of:
 - A preprocessor directive in C++ is a command that starts with # and is handled before the actual compilation begins. Preprocessor directives don’t produce executable code themselves—they change or prepare the source code.  
 
 #### Main C++ Preprocessor Directives:  
-1. File inclusion
-`#include`
-Includes another file:
-`#include <iostream>`
-`include "myfile.h"`
-`<...>` → system/library file
-`"..."` → your own file
+1. File inclusion  
+`#include`  
+Includes another file:  
+`#include <iostream>`  
+`include "myfile.h"`  
+`<...>` → system/library file  
+`"..."` → your own file  
+  
+2. Macro definition  
+`#define`  
+Defines macros:  
+`#define PI 3.14`  
+`#define SQUARE(x) ((x)*(x))`  
+`#undef`  
+Removes a macro:  
+`#undef PI`  
+  
+  
