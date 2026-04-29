@@ -257,4 +257,16 @@ Ends a condition block:
 ```  
 
   
-`#pragma once` in C++ is a preprocessor directive used to prevent a header file from being included multiple times in the same compilation.
+`#pragma once` in C++ is a preprocessor directive used to prevent a header file from being included multiple times in the same compilation.  
+or
+```c
+#ifndef MYHEADER_H
+#define MYHEADER_H
+
+class MyClass {
+public:
+    void doSomething();
+};
+
+#endif
+```
