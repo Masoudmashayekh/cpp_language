@@ -254,4 +254,7 @@ These allow compiling code conditionally.
 Ends a condition block:  
 ```c
 #endif
-```
+```  
+
+  
+`#pragma once` in C++ is a preprocessor directive used to prevent a header file from being included multiple times in the same compilation.
