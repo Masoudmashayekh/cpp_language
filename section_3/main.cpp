@@ -14,6 +14,7 @@ int getUserInput()
 
 int main()
 {
-
+    int value{getUserInput()};
+    std::cout << value;
     return 0;
 }
